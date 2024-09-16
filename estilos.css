@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center; /* Añade esta línea */
+  }
+  
+  input[type="date"] {
+    width: 80%; /* Ajusta el ancho */
+    height: 30px;
+    margin: 0 auto 20px; /* Añade margen inferior y centrado */
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: block; /* Añade esta línea */
+  }
+  
+  button {
+    width: 80%; /* Ajusta el ancho */
+    height: 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; /* Centrado */
+    display: block; /* Añade esta línea */
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #resultado {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    word-wrap: break-word;
+    text-align: center; /* Añade esta línea */
+  }
